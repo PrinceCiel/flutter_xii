@@ -3,6 +3,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_xii/container_widget/container_dua.dart';
 import 'package:flutter_xii/container_widget/container_satu.dart';
+import 'package:flutter_xii/grid_view/grid_satu.dart';
+import 'package:flutter_xii/grid_view/grid_screen.dart';
+import 'package:flutter_xii/list_view/list_dua.dart';
+import 'package:flutter_xii/list_view/list_satu.dart';
+import 'package:flutter_xii/list_view/list_screen.dart';
 import 'package:flutter_xii/main_layouts.dart';
 import 'package:flutter_xii/row_column_widget/column_satu.dart';
 import 'package:flutter_xii/row_column_widget/latihan_satu.dart';
@@ -25,7 +30,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: Testimoni(),
+        body: GridProductPage(),
       ),
     );
   }
