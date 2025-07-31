@@ -3,8 +3,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_xii/container_widget/container_dua.dart';
 import 'package:flutter_xii/container_widget/container_satu.dart';
+import 'package:flutter_xii/form_widget/input_screen.dart';
 import 'package:flutter_xii/grid_view/grid_satu.dart';
 import 'package:flutter_xii/grid_view/grid_screen.dart';
+import 'package:flutter_xii/latihan%20hana/grid.dart';
+import 'package:flutter_xii/latihan/grid.dart';
 import 'package:flutter_xii/list_view/list_dua.dart';
 import 'package:flutter_xii/list_view/list_satu.dart';
 import 'package:flutter_xii/list_view/list_screen.dart';
@@ -30,7 +33,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: GridProductPage(),
+        body: InputFormScreen(),
       ),
     );
   }
